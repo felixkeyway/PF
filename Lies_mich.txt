@@ -1,0 +1,16 @@
+Einfach den Inhalt des Ordners upload mit einem FTP-Programm auf ihren Webspace/Server hochladen
+und die test.php in ihrem Browser aufurfen. Diese Datei überprüft, ob ihr Webspace den grundlegenden
+Anforderungen (PHP) genügt.
+
+Diese wären:
+
+* Webserversoftware: Apache Httpd-Server 2.2.0 oder höher bzw. Microsoft IIS in Version 6 oder höher.
+* PHP 5.3.4 oder höher.
+* Für das optionale Paktet "Search Engine Optimization" ist ein aktiviertes Rewrite-Modul erforderlich.
+* MySQL in Version 5.0 oder höher oder
+* PostgreSQL in Version 8.0 oder höher.
+
+Wenn sie unsicher sind, ob ihr Webserver diese Bedingungen erfüllt, kontaktieren sie ihren Webhoster/Serveradminestrator.
+
+Entpacken sie auf keinen Fall das Archiv "KPFSetup.tar.gz" im Verzeichnis upload. Die Software wird dies
+für sie erledigen.
