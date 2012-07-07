@@ -1,6 +1,6 @@
 <?php
 /**
- * This file contain all basic configuration of the portal framework.
+ * This file contains all basic configuration of the portal framework.
  */
 
 // make the path unix compatible
