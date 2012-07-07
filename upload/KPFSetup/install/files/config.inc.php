@@ -25,10 +25,10 @@ define('DB_NAME', 'kpf');
 define('DB_ENGINE', 'MySQL');
 
 // define the user of the database
-define('DB_USER', 'root');
+define('DB_USER', '');
 
 // define the password of the database user
-define('DB_PASSWORD', 'stern2');
+define('DB_PASSWORD', '');
 
 // define the port of the database server
 define('DB_PORT', 3306);
