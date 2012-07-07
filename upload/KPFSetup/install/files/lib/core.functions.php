@@ -10,7 +10,7 @@
  */
 
 // set type of the error reporting
-if (DEBUG_MODE) :
+if (defined(DEBUG_MODE)) :
     error_reporting(E_ALL);
 endif;
 
