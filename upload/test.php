@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w.3.org/1999/xhtml">
     <head>
-        <title>Keyway-Xelonis&reg; Portal Framework&trade; - Installation - Vorabüberprüfung / Keyway-Xelonis&reg; Portal Framework&trade; - Installation - Pretest</title>
+        <title>Portal Framework - Installation - Vorabüberprüfung / Keyway-Xelonis Portal Framework - Installation - Pretest</title>
         <meta name="robots" content="noindex" />
         <meta charset="utf-8" />
     </head>
