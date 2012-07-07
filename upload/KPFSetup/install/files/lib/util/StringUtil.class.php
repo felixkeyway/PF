@@ -4,8 +4,8 @@ namespace kpf\util;
 /**
  * This class provides some util methods for string handling.
  * 
- * @author          Felix Jacobi <jacobi@keyway-xelonis.com>
- * @copyright       2011-2012 Keyway-Xelonis GmbH
+ * @author          Felix Jacobi
+ * @copyright       2011-2012 Keyway-Xelonis
  * @license         GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl.html>
  * @package         com.keyway-xelonis.kpf
  * @subpackage      util
