@@ -47,7 +47,7 @@ class KPF {
      */
     
     public static function autoloadDirectoryAdd($autoloadDirectoryIndex, $autoloadDirectoryValue) {
-        if (!isset(self::$autoloadDirectories[$autoloadDirectoryIndex]) && $autoloadDirectoryValue) :
+        if (!isset(self::$autoloadDirectories[$autoloadDirectoryIndex]) && $autoloadDirectoryValue !== '') :
             self::$autoloadDirectories[$autoloadDirectoryIndex] = $autoloadDirectoryValue;
         endif;
     }
