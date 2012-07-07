@@ -20,7 +20,7 @@
     endif;
 ?>
             <footer>
-                <p>&copy; Copyright 2011-2012 <a href="http://www.keyway-xelonis.com/">Keyway-Xelonis&reg; GmbH</a>. All rights reserved.</p>
+                <p>&copy; Copyright 2011-2012 Keyway-Xelonis. All rights reserved.</p>
             </footer>
         </section>
     </body>
