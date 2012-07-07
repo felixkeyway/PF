@@ -5,7 +5,7 @@ require_once './setup.inc.php';
 /**
  * This file installs the Portal Framework and configure the database access.
  * 
- * @author          Felix Jacobi <jacobi@keyway-xelonis.com>
+ * @author          Felix Jacobi
  * @license         GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl.html> 
  */
 
