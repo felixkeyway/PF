@@ -15,6 +15,20 @@ use kpf\system\execption\SystemException;
  */
 
 class DatabaseException extends SystemException {
+    /**
+     * Instance of the database object.
+     * 
+     * @var         kpf\system\database\AbstractDatabase
+     */
     
+    protected $database = null;
+    
+    /**
+     * Instance of the prepared statement object.
+     *
+     * @var         kpf\system\database\statement\PreparedStatement
+     */
+     
+    protected $pdoStattement = null;
 }
 ?>
