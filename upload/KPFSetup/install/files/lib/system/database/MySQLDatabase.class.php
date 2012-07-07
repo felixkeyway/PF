@@ -31,7 +31,6 @@ class MySQLDatabase extends kpf\system\database\AbstractDatabase {
     /**
      * Creates a new database connection.
      * 
-     * @return          boolean         true on success
      * @see             kpf\system\database\AbstractDatabase::connect()
      */
     
@@ -39,9 +38,8 @@ class MySQLDatabase extends kpf\system\database\AbstractDatabase {
         try {
             $this->pdo = new PDO('mysql:host=' . $this->host . ';dbname=' . $this->databasename, $this->user, $this->password);
             $this->setAttributes();
-            return true;
-        } catch (\Exception $e) {
-            return false;
+        } catch (\PDOException $e) {
+            throw new kpf\system\database\exception\DatabaseException($this, "Connecting to MySQL-Server '" . $this->host . "' failed.\n" . $e->getMessage);
         }
     }
 }
