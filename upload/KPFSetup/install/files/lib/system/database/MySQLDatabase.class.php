@@ -5,7 +5,8 @@ namespace kpf\system\database;
  * This is a implementation of the daatbase support for
  * MySQL Databases.
  * 
- * @author          Felix Jacobi <jacobi@keyway-xelonis.com>
+ * @author          Felix Jacobi
+ * @copyright       2011.-2012 Keyway-Xelonis
  * @license         GNU Lesser General Public License <http://www.gnu.org/licenses/lgpl.html>
  * @package         com.keyway-xelonis.kpf
  * @subpackage      system.database
