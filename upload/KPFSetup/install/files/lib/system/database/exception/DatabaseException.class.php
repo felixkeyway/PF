@@ -29,6 +29,6 @@ class DatabaseException extends SystemException {
      * @var         kpf\system\database\statement\PreparedStatement
      */
      
-    protected $pdoStattement = null;
+    protected $pdoStatement = null;
 }
 ?>
